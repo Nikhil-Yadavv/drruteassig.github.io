@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish:wght@300&family=Piazzolla:wght@200;300;400;900&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Piazzolla', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/s.webp);
+    /* background-position: bottom; */
+    background-size: cover;
+    background-position:center;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    margin: 15px 50px 0 0;
+}
+.list1{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+.list1 a{
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+.list1 a:hover{
+    cursor: pointer;
+}
+.line{
+    /* color: rgb(149, 231, 27) !important; */
+    /* height: 2px; */
+    border-bottom: 1.2px solid rgb(74, 243, 74);
+    margin-right: 20px;
+}
+.list2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.list2 a{
+    padding: 20px;
+    color: white;
+}
+.contact{
+    text-decoration: none;
+}
+.logo{
+    margin: 20px 0 0 40px;
+    width: 258px;
+    height: 226px;
+    text-align: center;
+}
+.logo-img{
+    width: 152px;
+    height: 127px;
+}
+.logo h4{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.logo p{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: -5px;
+}
+.below{
+    margin-top: 9vh;
+    margin-left: 130px;
+    height: 300px;
+    color: white;
+}
+.below h1{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    line-height: 50px;
+}
+.below span{
+    font-size: 3.2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.below p{
+    margin-top: 50px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.vision h1 h6{
+    font-weight: bold;
+}
+.vision h1{
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+.vision h6{
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.vision{
+    margin-bottom: 20px;
+}
+.vision span{
+    color: rgb(190, 56, 150);
+}
+.focus h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px;
+}
+.pic1{
+    background-image: url(./assets/k1.svg);
+    text-align: center;
+    padding: 10px;
+
+}
+.pic2{
+    background-image: url(./assets/k2.svg);
+    text-align: center;
+    padding: 10px;
+  
+}
+.pic3{
+    background-image: url(./assets/k3.svg);
+    text-align: center;
+    padding: 10px;
+    /* margin-right: 20px; */
+}
+.logo1{
+    height: 90px;
+    width: 90px;
+    margin: 80px 0 40px 0;
+    
+}
+.focus h3{
+    margin:20px;
+}
+.focus p{
+    margin-bottom: 80px;
+
+}
+.diff{
+    background-image: url(./assets/s1.webp);
+    width: 100%;
+    height: 115vh;
+    background-position: bottom;
+    background-size: cover;
+}
+.diff h1{
+    color: white;
+    padding-top: 80px;
+    font-size: 4rem;
+    line-height: 60px;
+}
+.diff p{
+    color: white;
+    padding-top: 20px;
+}
+.ch{
+    margin-left: 60px;
+}
+
+.sub2{
+    width: 80%;
+    height: 30vh;
+    padding-left: 10px;
+}
+.sub3{
+    width: 90%;
+    height: 30vh;
+}
+.sub4{
+    width: 78%;
+    height: 27vh;
+    margin-left: 50px;
+}
+.sub5{
+    width: 40%;
+    margin-left: 17vw;
+}
+.part1{
+    margin-top: 60px;
+    text-align: center;
+}
+.part1 h6{
+    margin-top: 8px;
+}
+.alag1{
+    padding: 37px;
+    text-align: center;
+    color: rgb(25, 178, 239);
+}
+.alag{
+    text-align: center;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(to right,rgb(31, 198, 103),rgb(0, 103, 95));
+    margin: 50px 80px 10px 80px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.impact{
+    background-image: url(./assets/leaf.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+}
+.sub{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.photo{
+    width: 25%;
+    height: 12vh;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.imp{
+    padding-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+.imp span{
+    color: yellow;
+}
+.height{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to left,rgb(226, 245, 119),rgba(3, 117, 105, 0.977));
+    margin-left: -12px;
+}
+.port{
+    margin-top: 150px;
+    text-align: center;
+}
+.port h5{
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.chk{
+    margin-bottom: -2px;
+}
+.port h6,span{
+    font-weight: bolder;
+}
+.start{
+    background-image: url(./assets/s2.webp);
+    background-size: cover;
+    background-position:center;
+}
+.start h4{
+    margin-top: 500px;
+}
+.start span{
+    color: green;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .height{
+        margin-left: 0;
+    }
+    .photo{
+        margin-top: 200px;
+    }
+    .impact{
+        height: 80vh;
+    }
+    .below{
+        width: 80%;
+    }
+    .sub5{
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+    .ch{
+        padding-top: 300px;
+    }
+    .pic1{
+    background-position: bottom;
+    background-size: cover;
+    }
+    .pic2{
+        background-position: bottom;
+        background-size: cover;
+        margin: 5px 0;
+        }
+        .pic3{
+            background-position: bottom;
+            background-size: cover;
+        }
+    .below{
+        margin-top: 22vh;
+        font-weight: bolder;
+    }
+    .main-header{
+        display:block;
+        /* justify-content: center; */
+    }
+    .logo{
+        padding-top: 20px;
+        margin-left: 40vw;
+    }
+    .list2{
+        margin-left: 25vw;
+        display: block;
+        margin-top: 5vh;
+    }
+    .list2 li{
+        padding: 10px;
+        font-size: large;
+        font-weight: bold;
+    }
+    .line{
+        margin-left: 10vw;
+    }
+    .list1{
+        margin-right: 15vw;
+    }
+    .header{
+        margin-top: -30px;
+    }
+}
+
+@media (max-width:576px) {
+    .sub5{
+        margin-left: 15vw;
+    }
+    .vision p,h6{
+        width: 80%;
+    }
+    .photo{
+        margin-top: 80px;
+    }
+    .line{
+        width: 80%;
+    }
+    .list1 a{
+        padding: 5px;
+    }
+    .list1{
+        margin-right: 1vw;
+    }
+    .below{
+        display: none;
+    }
+}
+
