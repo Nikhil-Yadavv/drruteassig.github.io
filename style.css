@@ -270,12 +270,13 @@ ul{
     font-weight: bolder;
 }
 .start{
+    height: 590px;
     background-image: url(./assets/s2.webp);
     background-size: cover;
     background-position:center;
 }
 .start h4{
-    margin-top: 500px;
+    margin-top: 520px;
 }
 .start span{
     color: green;
