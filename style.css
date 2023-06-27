@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish:wght@300&family=Piazzolla:wght@200;300;400;900&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Mulish', sans-serif;
@@ -16,9 +16,16 @@ ul{
     background-image: url(./assets/s.webp);
     background-size: cover;
     background-position:center;
+    
 }
+/* .sala{
+    padding-right: -12px !important;
+    outline: 1px solid red;
+    
+} */
 .bar{
     margin: 15px 50px 0 0;
+    /* outline: 1px solid black; */
 }
 .list1{
     display: flex;
@@ -48,7 +55,7 @@ ul{
     margin-top: 5px;
 }
 .list2 a{
-    padding: 15px;
+    padding: 10px;
     color: white;
 }
 .contact{
@@ -124,19 +131,20 @@ ul{
     background-image: url(./assets/k1.svg);
     text-align: center;
     padding: 10px;
-
+    /* height: 70vh; */
 }
 .pic2{
     background-image: url(./assets/k2.svg);
     text-align: center;
     padding: 10px;
-  
+    /* height: 70vh; */
 }
 .pic3{
     background-image: url(./assets/k3.svg);
     text-align: center;
     padding: 10px;
     /* margin-right: 20px; */
+    /* height: 70vh; */
 }
 .logo1{
     height: 90px;
@@ -250,7 +258,7 @@ ul{
     margin-left: -12px;
 }
 .port{
-    margin-top: 100px;
+    margin-top: 25vh;
     text-align: center;
 }
 .port h5{
@@ -390,7 +398,7 @@ ul{
 
 @media (min-width:1400px) {
     .port{
-        margin-top: 300px;
+        margin-top: 45vh;
     }
     .impact{
         height: fit-content;
@@ -494,7 +502,7 @@ ul{
         padding: 5px;
     }
  }
- @media (max-width:350px) {
+ @media (max-width:400px) {
     .below p{
         display: none;
     }
@@ -508,9 +516,9 @@ ul{
     .below h1 span{
         font-size: 2rem;
     }
-    .below{
+    /* .below{
         margin-right: 20px;
-    }
+    } */
     .logo{
         margin-left: 20px;
     }
@@ -518,6 +526,6 @@ ul{
 
  @media (min-width:576px) {
     .port{
-        margin-top: 380px;
+        /* margin-top: 40vh !important; */
     }
  }
