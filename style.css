@@ -13,16 +13,9 @@ ul{
     list-style: none;
 }
 .header{
-    width: 100vw;
-    height: 100vh;
     background-image: url(./assets/s.webp);
-    /* background-position: bottom; */
     background-size: cover;
     background-position:center;
-}
-.main-header{
-    display: flex;
-    justify-content: space-between;
 }
 .bar{
     margin: 15px 50px 0 0;
@@ -31,6 +24,10 @@ ul{
     display: flex;
     justify-content: flex-end;
     margin-bottom: 8px;
+}
+.list12{
+    display: flex;
+    justify-content: flex-end;
 }
 .list1 a{
     padding: 20px;
@@ -42,8 +39,6 @@ ul{
     cursor: pointer;
 }
 .line{
-    /* color: rgb(149, 231, 27) !important; */
-    /* height: 2px; */
     border-bottom: 1.2px solid rgb(74, 243, 74);
     margin-right: 20px;
 }
@@ -53,24 +48,22 @@ ul{
     margin-top: 5px;
 }
 .list2 a{
-    padding: 20px;
+    padding: 15px;
     color: white;
 }
 .contact{
     text-decoration: none;
 }
 .logo{
-    margin: 20px 0 0 30px;
-    width: 258px;
-    height: 226px;
+    margin-top: 20px;
     text-align: center;
+    margin-left: -50px;
 }
 .logo-img{
     width: 152px;
     height: 127px;
 }
 .logo h4{
-    display: flex;
     text-align: center;
     color: white;
     font-weight: 500;
@@ -86,6 +79,7 @@ ul{
     margin-left: 110px;
     height: 300px;
     color: white;
+    margin-bottom: 50px;
 }
 .below h1{
     font-size: 3rem;
@@ -224,13 +218,13 @@ ul{
 .impact{
     background-image: url(./assets/leaf.webp);
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-position: bottom;
     background-size: cover;
 }
 .sub{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     color: white;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -251,12 +245,12 @@ ul{
 }
 .height{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(to left,rgb(226, 245, 119),rgba(3, 117, 105, 0.977));
     margin-left: -12px;
 }
 .port{
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
 }
 .port h5{
@@ -276,10 +270,10 @@ ul{
     font-weight: bolder;
 }
 .start{
-    height: 590px;
+    /* height: 590px; */
     background-image: url(./assets/s2.webp);
     background-size: cover;
-    background-position:center;
+    background-position:bottom;
 }
 .start h4{
     margin-top: 520px;
@@ -290,15 +284,16 @@ ul{
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .height{
-        margin-left: 0;
+        margin:20px;
+        height: 52vh;
     }
     .photo{
-        margin-top: 200px;
+        margin-top: 160px;
     }
     .impact{
-        height: 80vh;
+        height: 100vh;
     }
     .below{
         width: 80%;
@@ -306,6 +301,15 @@ ul{
     .sub5{
         margin-left: 200px;
         margin-bottom: 20px;
+    }
+    .start{
+        margin-top: 20px;
+    }
+    .diff{
+        height: 80vh;
+    }
+    .diff h1{
+        padding-top: 0px;
     }
     .ch{
         padding-top: 300px;
@@ -324,21 +328,21 @@ ul{
             background-size: cover;
         }
     .below{
-        margin-top: 22vh;
+        margin-top: 5vh;
         font-weight: bolder;
     }
     .main-header{
         display:block;
-        /* justify-content: center; */
+        justify-content: center; 
     }
     .logo{
-        padding-top: 20px;
-        margin-left: 40vw;
+        padding-top: 10px;
+        margin-left: 30vw;
     }
     .list2{
         margin-left: 25vw;
         display: block;
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
     .list2 li{
         padding: 10px;
@@ -349,12 +353,16 @@ ul{
         margin-left: 10vw;
     }
     .list1{
-        margin-right: 15vw;
+        margin-right: 55px;
+        margin-top: 10px;
+    }
+    .below{
+        margin-left: 40px;
     }
     .header{
-        margin-top: -30px;
+        height: 85vh;
     }
-}
+} 
 
 @media (max-width:576px) {
     .sub5{
@@ -375,8 +383,141 @@ ul{
     .list1{
         margin-right: 1vw;
     }
-    .below{
-        display: none;
+    .height{
+        margin-left: 0;
+    }
+}  */
+
+@media (min-width:1400px) {
+    .port{
+        margin-top: 300px;
+    }
+    .impact{
+        height: fit-content;
+    }
+    .photo{
+        margin-left: 200px;
+        width: 20%;
+        height: 10vh;
+    }
+    .imp{
+        margin-left: 200px;
+    }
+    .diff{
+        height: 80vh;
+    }
+    .ch{
+        margin-left: 200px;
+    }
+    .start{
+        /* height: 75vh; */
+        background-position: right;
+    }
+    .start h4{
+        margin-top: 750px;
+    }
+    .header{
+        padding: 0px 100px;
     }
 }
 
+/* @media (min-width:768px) {
+    .header{
+        height: fit-content;
+    }
+    .below{
+        margin-bottom: 50px;
+    }
+    .logo1{
+        height: 100px;
+    }
+    .diff{
+        height: 70vh;
+    }
+    .start{
+        height: 75vh;
+        background-position: calc(0.sub5);
+    }
+    .start h4{
+        margin-top: 750px;
+    }
+    .impact{
+        height: fit-content;
+    }
+    .port{
+        margin-top: 300px;
+    }
+    .height{
+        height: 70vh;
+    }
+} */
+
+
+ @media (max-width:992px) {
+    .logo{
+        text-align: center;
+    }
+    .bar{
+        text-align: center !important;
+    }
+    .line{
+        margin-left: 50px;
+    }
+ }
+
+ @media (max-width:768px) {
+    .pic2{
+        margin: 10px 0px;
+    }
+ }
+ @media (max-width:460px) {
+    .header{
+        height: 120vh;
+    }
+    .below{
+        margin-left: 50px;
+    }
+    .list1{
+        display: block;
+    }
+    .list1 a{
+        /* padding-left: 10px; */
+        font-size: 1.4rem;
+        
+    }
+    .list2{
+        display: block;
+        margin-top: 20px;
+    }
+    .list2 a{
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+ }
+ @media (max-width:350px) {
+    .below p{
+        display: none;
+    }
+    .list12{
+        display: block;
+    }
+    .header{
+        width: 100%;
+        height: fit-content;
+    }
+    .below h1 span{
+        font-size: 2rem;
+    }
+    .below{
+        margin-right: 20px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+ }
+
+ @media (min-width:576px) {
+    .port{
+        margin-top: 380px;
+    }
+ }
