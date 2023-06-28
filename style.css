@@ -175,6 +175,8 @@ ul{
 .diff p{
     color: white;
     padding-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .ch{
     margin-left: 60px;
@@ -191,8 +193,8 @@ ul{
 }
 .sub4{
     width: 78%;
-    height: 27vh;
-    margin-left: 50px;
+    height: 30vh;
+    /* margin-left: 50px; */
 }
 .sub5{
     width: 40%;
@@ -212,11 +214,12 @@ ul{
 }
 .alag{
     text-align: center;
+    text-transform: capitalize;
 }
 .play{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     color: white;
     background-image: linear-gradient(to right,rgb(31, 198, 103),rgb(0, 103, 95));
     margin: 50px 80px 10px 80px;
@@ -231,8 +234,8 @@ ul{
     background-size: cover;
 }
 .sub{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     color: white;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -246,10 +249,11 @@ ul{
 .imp{
     padding-top: 50px;
     margin-left: 50px;
-    color: white;
+    color: white;  
 }
 .imp span{
     color: yellow;
+    font-size: 3rem;
 }
 .height{
     width: 100%;
@@ -258,7 +262,7 @@ ul{
     margin-left: -12px;
 }
 .port{
-    margin-top: 25vh;
+    margin-top: 15vh;
     text-align: center;
 }
 .port h5{
@@ -276,6 +280,7 @@ ul{
 }
 .port h6,span{
     font-weight: bolder;
+    font-size: large;
 }
 .start{
     /* height: 590px; */
@@ -285,10 +290,12 @@ ul{
 }
 .start h4{
     margin-top: 520px;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .start span{
     color: green;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
@@ -398,7 +405,7 @@ ul{
 
 @media (min-width:1400px) {
     .port{
-        margin-top: 45vh;
+        /* margin-top: 45vh; */
     }
     .impact{
         height: fit-content;
@@ -516,16 +523,15 @@ ul{
     .below h1 span{
         font-size: 2rem;
     }
-    /* .below{
-        margin-right: 20px;
-    } */
     .logo{
         margin-left: 20px;
     }
- }
-
- @media (min-width:576px) {
-    .port{
-        /* margin-top: 40vh !important; */
+    .diff h1{
+        font-size: 3rem;
     }
  }
+@media (max-width:1400px) {
+    .start h4{
+        margin-top: 700px;
+    }
+}
