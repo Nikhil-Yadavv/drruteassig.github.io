@@ -18,6 +18,9 @@ ul{
     background-position:center;
     
 } 
+.cha{
+    justify-content: right !important;
+}
 .bar{
     /* margin-right: 20px; */
     display: flex;
@@ -312,109 +315,7 @@ ul{
 }
 
 
-/* @media (max-width: 768px) {
-    .height{
-        margin:20px;
-        height: 52vh;
-    }
-    .photo{
-        margin-top: 160px;
-    }
-    .impact{
-        height: 100vh;
-    }
-    .below{
-        width: 80%;
-    }
-    .sub5{
-        margin-left: 200px;
-        margin-bottom: 20px;
-    }
-    .start{
-        margin-top: 20px;
-    }
-    .diff{
-        height: 80vh;
-    }
-    .diff h1{
-        padding-top: 0px;
-    }
-    .ch{
-        padding-top: 300px;
-    }
-    .pic1{
-    background-position: bottom;
-    background-size: cover;
-    }
-    .pic2{
-        background-position: bottom;
-        background-size: cover;
-        margin: 5px 0;
-        }
-        .pic3{
-            background-position: bottom;
-            background-size: cover;
-        }
-    .below{
-        margin-top: 5vh;
-        font-weight: bolder;
-    }
-    .main-header{
-        display:block;
-        justify-content: center; 
-    }
-    .logo{
-        padding-top: 10px;
-        margin-left: 30vw;
-    }
-    .list2{
-        margin-left: 25vw;
-        display: block;
-        margin-top: 2vh;
-    }
-    .list2 li{
-        padding: 10px;
-        font-size: large;
-        font-weight: bold;
-    }
-    .line{
-        margin-left: 10vw;
-    }
-    .list1{
-        margin-right: 55px;
-        margin-top: 10px;
-    }
-    .below{
-        margin-left: 40px;
-    }
-    .header{
-        height: 85vh;
-    }
-} 
 
-@media (max-width:576px) {
-    .sub5{
-        margin-left: 15vw;
-    }
-    .vision p,h6{
-        width: 80%;
-    }
-    .photo{
-        margin-top: 80px;
-    }
-    .line{
-        width: 80%;
-    }
-    .list1 a{
-        padding: 5px;
-    }
-    .list1{
-        margin-right: 1vw;
-    }
-    .height{
-        margin-left: 0;
-    }
-}  */
 
 @media (min-width:1400px) {
     .impact{
@@ -461,6 +362,9 @@ ul{
     .list1{
         display: flex;
         flex-direction: column;
+    }
+    .list1 a{
+        margin-right: 0px;
     }
     .list2{
         display: flex;
