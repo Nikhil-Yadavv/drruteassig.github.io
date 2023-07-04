@@ -32,6 +32,9 @@ ul{
     margin-top: 25px;
     border: 1px solid white !important;
 }
+.cha{
+    justify-content: right !important;
+}
 .navbar span{
     color: white !important;
 }
@@ -312,6 +315,9 @@ ul{
     flex-direction: column;
     align-items: right;
   }
+  .list1 a{
+    margin-right: 0px;
+  }
   .wrapper1{
     display: flex;
     flex-direction: column;
@@ -380,7 +386,9 @@ ul{
     width: 100%;
     height: 100%;
 }
-
+.relate{
+    margin-top: 20px !important;
+}
 }
 @media only screen and (max-width: 576px) {
   .content {
