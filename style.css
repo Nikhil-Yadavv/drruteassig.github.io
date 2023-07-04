@@ -17,29 +17,37 @@ ul{
     background-size: cover;
     background-position:center;
     
-}
-/* .sala{
-    padding-right: -12px !important;
-    outline: 1px solid red;
-    
-} */
+} 
 .bar{
-    margin: 15px 50px 0 0;
-    /* outline: 1px solid black; */
+    /* margin-right: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.navbar button{
+    color: white !important;
+    margin-top: 25px;
+    border: 1px solid white !important;
+}
+.navbar span{
+    color: white !important;
+}
+.navbar .navbar-toggler{
+    color: white !important;
 }
 .list1{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 8px;
+    text-align: right;
 }
 .list12{
     display: flex;
     justify-content: flex-end;
 }
 .list1 a{
-    padding: 20px;
+    margin: 0px 10px;
+    text-decoration:underline;
     font-weight: bold;
-    color: white;
+    color: white !important;
     letter-spacing: 1px;
 }
 .list1 a:hover{
@@ -52,14 +60,15 @@ ul{
 .list2{
     display: flex;
     justify-content: flex-end;
-    margin-top: 5px;
+    text-align: right;
 }
 .list2 a{
-    padding: 10px;
-    color: white;
+    margin: 0px 5px;
+    color: white !important;
+    text-decoration:underline;
 }
 .contact{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .logo{
     margin-top: 20px;
@@ -284,9 +293,9 @@ ul{
 }
 .start{
     /* height: 590px; */
-    background-image: url(./assets/s2.webp);
+    background-image: url(./assets/k5.png);
     background-size: cover;
-    background-position:bottom;
+    background-position:center;
 }
 .start h4{
     margin-top: 520px;
@@ -404,9 +413,6 @@ ul{
 }  */
 
 @media (min-width:1400px) {
-    .port{
-        /* margin-top: 45vh; */
-    }
     .impact{
         height: fit-content;
     }
@@ -432,56 +438,35 @@ ul{
         margin-top: 750px;
     }
     .header{
-        padding: 0px 100px;
+        padding: 0px 150px 0 100px;
+    }
+    .background4{
+        padding: 0px 150px 0 100px;
     }
 }
 
-
-/* @media (min-width:768px) {
-    .header{
-        height: fit-content;
-    }
-    .below{
-        margin-bottom: 50px;
-    }
-    .logo1{
-        height: 100px;
-    }
-    .diff{
-        height: 70vh;
-    }
-    .start{
-        height: 75vh;
-        background-position: calc(0.sub5);
-    }
-    .start h4{
-        margin-top: 750px;
-    }
-    .impact{
-        height: fit-content;
-    }
-    .port{
-        margin-top: 300px;
-    }
-    .height{
-        height: 70vh;
-    }
-} */
 
 
  @media (max-width:992px) {
     .logo{
         text-align: center;
     }
-    .bar{
-        text-align: center !important;
-    }
-    .line{
-        margin-left: 50px;
-    }
     .ab1{
         float: center;
     }
+    .list1{
+        display: flex;
+        flex-direction: column;
+    }
+    .list2{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo{
+        width: 25%;
+        height: 50%;
+    }
+    
  }
 
  @media (max-width:768px) {
@@ -489,30 +474,7 @@ ul{
         margin: 10px 0px;
     }
  }
- @media (max-width:460px) {
-    .header{
-        height: 120vh;
-    }
-    .below{
-        margin-left: 50px;
-    }
-    .list1{
-        display: block;
-    }
-    .list1 a{
-        /* padding-left: 10px; */
-        font-size: 1.4rem;
-        
-    }
-    .list2{
-        display: block;
-        margin-top: 20px;
-    }
-    .list2 a{
-        font-size: 1.3rem;
-        padding: 5px;
-    }
- }
+ 
  @media (max-width:400px) {
     .below p{
         display: none;
@@ -539,3 +501,75 @@ ul{
         margin-top: 700px;
     }
 }
+
+@media (max-width:576px){
+    .logo{
+        margin-left: 10px;
+    }
+    .below{
+        margin-left: -1px;
+    }
+}
+
+
+
+
+
+
+/* About css */
+
+
+.background4{
+    background:url(./assets/c1.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position:center;
+    
+}
+.content4{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+  }
+  .firstcontent4{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+  }
+  .firstcontent4 span{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .bold{
+      font-weight: bold;
+  }
+  .secondcontent4{
+    padding: 20px 0;
+    line-height: 18px;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    padding-bottom: 90px;
+  }
+  .waste{
+    color: rgb(27, 27, 27) !important;
+  }
+  .bwwcs{
+    color: rgb(27, 27, 27) !important;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  .bwwcsimg{
+    width: 25%;
+    margin-top: 20px;
+    float: right;
+    padding-top: 20px;
+  }
+
+
+
+
+
+
+  /* navbar css */
