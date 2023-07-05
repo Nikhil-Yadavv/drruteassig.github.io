@@ -425,7 +425,17 @@ ul{
         margin-top: -5px;
     }
 }
-
+@media (max-width:450px){
+    .logo h4{
+        font-size: 15px;
+    }
+    .logo p{
+        letter-spacing: 1px;
+        margin-top: -5px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
 
 
 
