@@ -269,10 +269,14 @@ ul{
     margin-right: 10px;
 }
 .photo{
-    width: 20%;
-    height: 8vh;
-    margin-top: 100px;
-    margin-left: 100px;
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.photo img{
+    width: 25%;
 }
 .imp{
     padding-top: 50px;
@@ -341,11 +345,7 @@ ul{
     .impact{
         height: fit-content;
     }
-    .photo{
-        margin-left: 200px;
-        width: 20%;
-        height: 9vh;
-    }
+   
     .imp{
         margin-left: 200px;
     }
@@ -364,6 +364,9 @@ ul{
     }
     .background4{
         padding: 0px 150px 0 100px;
+    }
+    .photo img{
+        width: 20%;
     }
 }
 
@@ -387,10 +390,7 @@ ul{
         display: flex;
         flex-direction: column;
     }
-    .photo{
-        width: 25%;
-        height: 50%;
-    }
+   
     .list1 a{
         color: black !important;
     }
@@ -413,6 +413,10 @@ ul{
         height: 110px;
         width: 140px;
     }
+    .photo img{
+        width: 40%;
+    }
+   
  }
  
  @media (max-width:400px) {
