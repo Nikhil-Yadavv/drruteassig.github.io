@@ -417,6 +417,7 @@ ul{
 .in_situ{
     flex-direction: column;
     align-items: center;
+    margin: 0px 20px !important;
 }
 .insituimage{
     height: 400px;
@@ -595,7 +596,7 @@ ul{
 }
 .in_situ{
     display: flex;
-    margin: 0 20px;
+    margin: 0 50px;
 }
 .insitucontent{
     flex: 2;
@@ -1001,7 +1002,7 @@ padding-top: 40px;
     }
     .thirdcontent1 p{
         font-size: 12px;
-        line-height: 20px;
+        line-height: 17px;
     }
     .thirdcontent2 span{
         font-size: 14px;
