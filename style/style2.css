@@ -37,6 +37,10 @@ ul{
 .show .line{
     margin: 0px;
 }
+.show .bar{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .navbar button{
     color: white !important;
     margin-top: 25px;
@@ -63,7 +67,7 @@ ul{
 }
 .list1 a{
     margin: 0px 10px;
-    text-decoration:underline;
+    /* text-decoration:underline; */
     font-weight: bold;
     color: white !important;
     letter-spacing: 1px;
@@ -83,7 +87,7 @@ ul{
 .list2 a{
     margin: 0px 5px;
     color: white !important;
-    text-decoration:underline;
+    /* text-decoration:underline; */
 }
 .contact{
     text-decoration: none !important;
@@ -107,6 +111,9 @@ ul{
     color: white;
     letter-spacing: 4px;
     margin-top: -5px;
+}
+.nav-item .active{
+    text-decoration:underline;
 }
 .below{
     margin-top: 9vh;
@@ -575,7 +582,7 @@ ul{
     margin-bottom: -17px;
 }
 .hero h2{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: -10px;
     font-family: 'DM Sans', sans-serif;
@@ -588,7 +595,7 @@ ul{
 }
 .in_situ{
     display: flex;
-    margin: 0 50px;
+    margin: 0 20px;
 }
 .insitucontent{
     flex: 2;
@@ -668,9 +675,15 @@ padding-top: 40px;
     font-size: 16px;
 }
 
+@media (max-width:850px){
+    .thirdcontent2{
+        margin: 30px 30px;
+    }
+  }
+
 @media (max-width:400px) {
     .hero h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -719,6 +732,8 @@ padding-top: 40px;
     color: #4468b1;
   }
 
+ 
+
 @media (max-width:650px) {
     .below{
         margin-left: 10px;
@@ -733,6 +748,21 @@ padding-top: 40px;
     .thirdcontent1 p{
         font-size: 18px;
     }
+    .thirdcontent2 p{
+        font-size: 18px;
+    }
+    .thirdcontent3 p{
+        font-size: 18px;
+    }
+    .thirdcontent2 span{
+        font-size: 20px;
+    }
+    .thirdcontent1 span{
+        font-size: 20px;
+    }
+    .thirdcontent3 span{
+        font-size: 20px;
+    }
 }
 
 @media (max-width:430px) {
@@ -746,9 +776,8 @@ padding-top: 40px;
     .below h1 span{
         font-size: 2rem;
     }
-    .thirdcontent1 p{
-        font-size: 11px;
-        line-height: 15px;
+    .list1 a{
+        line-height: 12px;
     }
 }
 
@@ -772,7 +801,7 @@ padding-top: 40px;
   /* Plant css*/
 
   .background3{
-    background:rgba(0, 0, 0, 0.2) url(../assets/i1.png);
+    background:rgba(0, 0, 0, 0.5) url(../assets/i1.png);
     background-size: cover;
     background-blend-mode: multiply;
     background-position:center;
@@ -955,7 +984,34 @@ padding-top: 40px;
         width: 90px;
         height: 60px;
     }
-
+    .list2 a{
+        font-size: 9px;
+        /* font-weight: bold; */
+    }
+    .list2{
+        line-height: 5px;
+    }
+    .thirdcontent2 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .thirdcontent3 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .thirdcontent1 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .thirdcontent2 span{
+        font-size: 14px;
+    }
+    .thirdcontent1 span{
+        font-size: 14px;
+    }
+    .thirdcontent3 span{
+        font-size: 14px;
+    }
 }
 
 
