@@ -608,7 +608,7 @@ ul{
 }
 
 .insitucontent p{
-text-align: justify;
+text-align: left;
 }
 .insitucontent span{
     color: green;
@@ -640,7 +640,7 @@ text-align: justify;
     padding: 10px 0 10px 30px;
 }
 .lake p{
-    text-align: justify;
+    text-align: left;
     line-height: 18px;
 }
 .gradient{
