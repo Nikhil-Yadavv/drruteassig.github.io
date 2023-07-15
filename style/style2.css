@@ -860,7 +860,7 @@ padding-top: 40px;
         font-size: 10px;
     }
     .below h1 span{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .belowmm h1{
         font-size: 1.5rem !important;
@@ -1031,7 +1031,7 @@ font-family: 'Space Grotesk', sans-serif;
         height: fit-content;
     }
     .below h1 span{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .diff h1{
         font-size: 3rem;
@@ -1116,7 +1116,7 @@ font-family: 'Space Grotesk', sans-serif;
         line-height: 35px;
     }
     .below h1 span{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         line-height: 35px;
     }
     .below p{
